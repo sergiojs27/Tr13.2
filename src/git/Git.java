@@ -3,9 +3,15 @@ package git;
 
 
 import java.util.*;
-
+/*
+ * Esta calse se encarga de ejecutar mediante dos numeros la operacion matematica escojida, tiene 2 metodos
+ * @author Sergio Junquera
+ * @date 15/04/2024
+ */
 public class Git {
-
+    /*
+     * Este metodo pide los numeros al usuario y llama al otro metodo pasando los numeros por parametro
+     */
 	public static void main(String[] args) 
 	{
 		
@@ -22,7 +28,9 @@ public class Git {
 		menu(numero1,numero2);
 
 	}
-	
+	/*
+	 * Estemetodo recive dos numeros por parametro y se encarga de realizar la operacion elejida
+	 */
 	public static void menu(double numero1,double numero2) 
 	{
 		Scanner src=new Scanner(System.in);
